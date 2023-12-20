@@ -2,7 +2,7 @@
 
 name = "Track Product Issue"
 client_id = "2773d5225b9f9509d3c913fe8f1bbe97"
-application_url = "https://spiritual-donald-conclusion-effort.trycloudflare.com"
+application_url = "https://product-tracking.pages.dev"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products,read_products"
 
 [auth]
 redirect_urls = [
-  "https://spiritual-donald-conclusion-effort.trycloudflare.com/auth/callback",
-  "https://spiritual-donald-conclusion-effort.trycloudflare.com/auth/shopify/callback",
-  "https://spiritual-donald-conclusion-effort.trycloudflare.com/api/auth/callback"
+  "https://product-tracking.pages.dev/auth/callback",
+  "https://product-tracking.pages.dev/auth/shopify/callback",
+  "https://product-tracking.pages.dev/api/auth/callback"
 ]
 
 [webhooks]
