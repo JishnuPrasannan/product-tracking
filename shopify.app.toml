@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "Track Product Issue"
+client_id = "2773d5225b9f9509d3c913fe8f1bbe97"
+application_url = "https://spiritual-donald-conclusion-effort.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products,read_products"
+
+[auth]
+redirect_urls = [
+  "https://spiritual-donald-conclusion-effort.trycloudflare.com/auth/callback",
+  "https://spiritual-donald-conclusion-effort.trycloudflare.com/auth/shopify/callback",
+  "https://spiritual-donald-conclusion-effort.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-07"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "p80w-checkout-plus-test.myshopify.com"
